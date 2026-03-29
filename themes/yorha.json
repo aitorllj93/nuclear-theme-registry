@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "name": "YoRHa",
+  "author": "nukeop",
+  "description": "Inspired by the UI of NieR:Automata.",
+  "tags": ["minimal", "monochrome"],
+  "palette": [
+    "oklch(0.9112 0.0325 95.42)",
+    "oklch(0.3102 0.0113 84.59)",
+    "oklch(0.6303 0.0168 90.30)",
+    "oklch(0.4058 0.0186 90.39)"
+  ],
+  "vars": {
+    "background": "oklch(0.9112 0.0325 95.42)",
+    "background-secondary": "oklch(0.8125 0.0334 95.47)",
+    "background-input": "oklch(0.8622 0.0330 95.44)",
+
+    "foreground": "oklch(0.4058 0.0186 90.39)",
+    "foreground-secondary": "oklch(0.5211 0.0176 90.34)",
+    "foreground-input": "oklch(0.4058 0.0186 90.39)",
+
+    "primary": "oklch(0.6303 0.0168 90.30)",
+
+    "border": "oklch(0.4058 0.0186 90.39)",
+    "border-input": "oklch(0.5211 0.0176 90.34)",
+    "ring": "oklch(0.8399 0.0411 96.30)",
+
+    "accent-green": "oklch(0.6704 0.0994 186.55)",
+    "accent-yellow": "oklch(0.7385 0.1141 92.12)",
+    "accent-purple": "oklch(0.5918 0.0632 312.87)",
+    "accent-blue": "oklch(0.5637 0.0435 235.81)",
+    "accent-orange": "oklch(0.7311 0.1820 51.69)",
+    "accent-cyan": "oklch(0.6629 0.0552 195.90)",
+    "accent-red": "oklch(0.6275 0.1365 34.80)",
+
+    "border-width": "1px",
+
+    "shadow-color": "oklch(0.4058 0.0186 90.39)",
+    "shadow-x": "2px",
+    "shadow-y": "2px",
+    "shadow-blur": "0px",
+
+    "font-family": "'FOT-Rodin Pro', 'Questrial', 'Noto Sans', system-ui, sans-serif",
+    "font-family-heading": "'ITC Benguiat', 'FOT-Rodin Pro', 'Questrial', 'Noto Sans', system-ui, sans-serif",
+    "font-family-mono": "'FOT-Rodin Pro', 'Questrial', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace",
+    "font-weight-normal": "400",
+    "font-weight-bold": "600",
+    "font-weight-extra-bold": "700",
+
+    "radius-sm": "0px",
+    "radius-md": "0px",
+    "radius-lg": "0px"
+  },
+  "dark": {
+    "background": "oklch(0.3102 0.0113 84.59)",
+    "background-secondary": "oklch(0.3904 0.0153 91.70)",
+    "background-input": "oklch(0.2742 0.0100 80.64)",
+
+    "foreground": "oklch(0.8681 0.0342 95.91)",
+    "foreground-secondary": "oklch(0.7717 0.0283 95.42)",
+    "foreground-input": "oklch(0.8681 0.0342 95.91)",
+
+    "primary": "oklch(0.8069 0.0391 93.89)",
+
+    "border": "oklch(0.4643 0.0180 90.36)",
+    "border-input": "oklch(0.3904 0.0153 91.70)",
+
+    "border-width": "1px",
+
+    "shadow-x": "0px",
+    "shadow-y": "0px",
+    "shadow-color": "oklch(0.2742 0.0100 80.64)"
+  }
+}
