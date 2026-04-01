@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "name": "Everforest",
+  "author": "nukeop",
+  "description": "Warm greens and soft earth tones, easy on the eyes",
+  "tags": ["green", "warm", "nature"],
+  "palette": [
+    "oklch(0.324 0.018 155.0)",
+    "oklch(0.773 0.091 125.8)",
+    "oklch(0.830 0.041 86.1)",
+    "oklch(0.749 0.063 185.5)"
+  ],
+  "vars": {
+    "background": "oklch(0.974 0.026 90.1)",
+    "background-secondary": "oklch(0.952 0.031 98.9)",
+    "background-input": "oklch(0.910 0.030 98.5)",
+
+    "foreground": "oklch(0.400 0.021 232.9)",
+    "foreground-secondary": "oklch(0.640 0.029 143.5)",
+    "foreground-input": "oklch(0.400 0.021 232.9)",
+
+    "primary": "oklch(0.620 0.100 125.8)",
+
+    "border": "oklch(0.807 0.028 120.6)",
+    "border-input": "oklch(0.892 0.028 98.1)",
+    "ring": "oklch(0.620 0.100 125.8)",
+
+    "accent-green": "oklch(0.620 0.100 125.8)",
+    "accent-yellow": "oklch(0.700 0.100 80.3)",
+    "accent-purple": "oklch(0.640 0.100 341.0)",
+    "accent-blue": "oklch(0.590 0.080 236.3)",
+    "accent-orange": "oklch(0.670 0.110 50.7)",
+    "accent-cyan": "oklch(0.600 0.080 163.9)",
+    "accent-red": "oklch(0.620 0.130 25.2)",
+
+    "shadow-color": "oklch(0.450 0.050 125.8)",
+    "shadow-x": "0px",
+    "shadow-y": "1px",
+    "shadow-blur": "3px",
+
+    "radius-sm": "6px",
+    "radius-md": "10px",
+    "radius-lg": "14px",
+
+    "border-width": "1px"
+  },
+  "dark": {
+    "background": "oklch(0.324 0.018 155.0)",
+    "background-secondary": "oklch(0.360 0.020 155.0)",
+    "background-input": "oklch(0.280 0.015 155.0)",
+
+    "foreground": "oklch(0.830 0.041 86.1)",
+    "foreground-secondary": "oklch(0.647 0.020 155.6)",
+    "foreground-input": "oklch(0.830 0.041 86.1)",
+
+    "primary": "oklch(0.420 0.091 125.8)",
+
+    "border": "oklch(0.455 0.018 155.0)",
+    "border-input": "oklch(0.431 0.020 155.0)",
+
+    "accent-green": "oklch(0.420 0.060 125.8)",
+    "accent-yellow": "oklch(0.425 0.055 83.7)",
+    "accent-purple": "oklch(0.430 0.050 349.2)",
+    "accent-blue": "oklch(0.415 0.045 185.5)",
+    "accent-orange": "oklch(0.430 0.060 44.9)",
+    "accent-cyan": "oklch(0.415 0.050 151.4)",
+    "accent-red": "oklch(0.435 0.080 19.6)",
+
+    "shadow-x": "0px",
+    "shadow-y": "0px",
+    "shadow-color": "oklch(0.180 0.012 155.0)"
+  }
+}
