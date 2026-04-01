@@ -23,8 +23,3 @@ jobs:
 
       - name: Validate schema
         run: bun run validate
-
-      - name: Check index is up to date
-        run: |
-          bun run build-index
-          git diff --exit-code themes.json

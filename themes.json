@@ -2,6 +2,96 @@
   "version": 1,
   "themes": [
     {
+      "id": "claude",
+      "name": "Claude",
+      "description": "Warm, understated tones inspired by Anthropic's Claude",
+      "author": "nukeop",
+      "tags": [
+        "warm",
+        "minimal",
+        "clean"
+      ],
+      "palette": [
+        "oklch(0.97 0.009 100)",
+        "oklch(0.31 0.003 107)",
+        "oklch(0.68 0.145 40)",
+        "oklch(0.51 0.126 257)"
+      ],
+      "path": "themes/claude.json"
+    },
+    {
+      "id": "cotton-candy",
+      "name": "Cotton Candy",
+      "description": "Soft pastels in baby pink and baby blue",
+      "author": "nukeop",
+      "tags": [
+        "pastel",
+        "pink",
+        "cute"
+      ],
+      "palette": [
+        "oklch(0.975 0.012 350)",
+        "oklch(0.230 0.025 280)",
+        "oklch(0.665 0.100 250)",
+        "oklch(0.720 0.130 350)"
+      ],
+      "path": "themes/cotton-candy.json"
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "description": "The famous dark theme by Zeno Rocha, with Alucard light mode",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "vibrant",
+        "popular"
+      ],
+      "palette": [
+        "oklch(0.288 0.022 277.5)",
+        "oklch(0.742 0.149 301.9)",
+        "oklch(0.755 0.183 346.8)",
+        "oklch(0.871 0.220 148.0)"
+      ],
+      "path": "themes/dracula.json"
+    },
+    {
+      "id": "everforest",
+      "name": "Everforest",
+      "description": "Warm greens and soft earth tones, easy on the eyes",
+      "author": "nukeop",
+      "tags": [
+        "green",
+        "warm",
+        "nature"
+      ],
+      "palette": [
+        "oklch(0.324 0.018 155.0)",
+        "oklch(0.773 0.091 125.8)",
+        "oklch(0.830 0.041 86.1)",
+        "oklch(0.749 0.063 185.5)"
+      ],
+      "path": "themes/everforest.json"
+    },
+    {
+      "id": "green-machine",
+      "name": "Green Machine",
+      "description": "The familiar dark music player with green accents",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "minimal",
+        "green"
+      ],
+      "palette": [
+        "oklch(0.182 0.000 0.0)",
+        "oklch(0.689 0.187 148.9)",
+        "oklch(0.277 0.000 0.0)",
+        "oklch(0.767 0.000 0.0)"
+      ],
+      "path": "themes/green-machine.json"
+    },
+    {
       "id": "gruvbox",
       "name": "Gruvbox",
       "description": "Retro groove color scheme. Based on the classic Vim theme.",
@@ -19,20 +109,38 @@
       "path": "themes/gruvbox.json"
     },
     {
+      "id": "one-dark",
+      "name": "One Dark",
+      "description": "Atom editor's iconic blue-tinted dark theme",
+      "author": "nukeop",
+      "tags": [
+        "dark",
+        "blue",
+        "editor"
+      ],
+      "palette": [
+        "oklch(0.292 0.016 264.3)",
+        "oklch(0.732 0.121 245.2)",
+        "oklch(0.694 0.163 318.0)",
+        "oklch(0.768 0.110 133.1)"
+      ],
+      "path": "themes/one-dark.json"
+    },
+    {
       "id": "rose-pine",
       "name": "Rosé Pine",
       "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist.",
       "author": "nukeop",
       "tags": [
-        "warm",
+        "dark",
         "muted",
-        "elegant"
+        "warm"
       ],
       "palette": [
-        "oklch(0.97 0.011 72)",
-        "oklch(0.21 0.025 291)",
-        "oklch(0.60 0.107 3)",
-        "oklch(0.46 0.063 290)"
+        "oklch(0.213 0.025 291.1)",
+        "oklch(0.698 0.156 4.2)",
+        "oklch(0.836 0.054 21.1)",
+        "oklch(0.776 0.095 305.0)"
       ],
       "path": "themes/rose-pine.json"
     },
