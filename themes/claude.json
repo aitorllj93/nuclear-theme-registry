@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "name": "Claude",
+  "author": "nukeop",
+  "description": "Warm, understated tones inspired by Anthropic's Claude",
+  "tags": ["warm", "minimal", "clean"],
+  "palette": [
+    "oklch(0.97 0.009 100)",
+    "oklch(0.31 0.003 107)",
+    "oklch(0.68 0.145 40)",
+    "oklch(0.51 0.126 257)"
+  ],
+  "vars": {
+    "background": "oklch(0.97 0.009 100)",
+    "background-secondary": "oklch(1.00 0 0)",
+    "background-input": "oklch(0.98 0.005 95)",
+
+    "foreground": "oklch(0.19 0.002 107)",
+    "foreground-secondary": "oklch(0.36 0.005 107)",
+    "foreground-input": "oklch(0.19 0.002 107)",
+
+    "primary": "oklch(0.68 0.145 40)",
+
+    "border": "oklch(0.45 0.008 100)",
+    "border-input": "oklch(0.55 0.008 100)",
+    "ring": "oklch(0.60 0.135 40)",
+
+    "accent-green": "oklch(0.65 0.14 140)",
+    "accent-yellow": "oklch(0.82 0.10 89)",
+    "accent-purple": "oklch(0.60 0.135 40)",
+    "accent-blue": "oklch(0.51 0.126 257)",
+    "accent-orange": "oklch(0.67 0.131 39)",
+    "accent-cyan": "oklch(0.51 0.126 257)",
+    "accent-red": "oklch(0.63 0.173 24)",
+
+    "shadow-color": "oklch(0.45 0.008 100)",
+    "shadow-x": "0px",
+    "shadow-y": "1px",
+    "shadow-blur": "3px",
+
+    "font-family": "'Inter', 'DM Sans', system-ui, sans-serif",
+    "font-family-heading": "'Inter', 'DM Sans', system-ui, sans-serif",
+    "font-weight-normal": "400",
+    "font-weight-bold": "600",
+    "font-weight-extra-bold": "700",
+
+    "radius-sm": "6px",
+    "radius-md": "10px",
+    "radius-lg": "14px",
+
+    "border-width": "1px"
+  },
+  "dark": {
+    "background": "oklch(0.31 0.003 107)",
+    "background-secondary": "oklch(0.27 0.004 107)",
+    "background-input": "oklch(0.19 0.002 107)",
+
+    "foreground": "oklch(0.98 0.005 95)",
+    "foreground-secondary": "oklch(0.81 0.014 98)",
+    "foreground-input": "oklch(0.98 0.005 95)",
+
+    "primary": "oklch(0.67 0.131 39)",
+
+    "border": "oklch(0.55 0.012 98)",
+    "border-input": "oklch(0.50 0.010 98)",
+
+    "shadow-x": "0px",
+    "shadow-y": "1px",
+    "shadow-blur": "4px",
+    "shadow-color": "oklch(0.10 0.003 107)",
+
+    "border-width": "1px"
+  }
+}
