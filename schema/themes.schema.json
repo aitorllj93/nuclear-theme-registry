@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/NuclearPlayer/theme-registry/master/schema/themes.schema.json",
+  "title": "Nuclear Theme Registry",
+  "description": "Schema for the Nuclear theme registry index",
+  "type": "object",
+  "required": [
+    "version",
+    "themes"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Reference to this schema"
+    },
+    "version": {
+      "type": "number",
+      "description": "Schema version number"
+    },
+    "themes": {
+      "type": "array",
+      "description": "List of registered themes",
+      "items": {
+        "$ref": "#/$defs/theme"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "theme": {
+      "type": "object",
+      "description": "A theme entry in the registry index",
+      "required": [
+        "id",
+        "name",
+        "description",
+        "author",
+        "tags",
+        "palette",
+        "path"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier, derived from the theme filename",
+          "pattern": "^[a-z0-9]([a-z0-9-]*[a-z0-9])?$",
+          "minLength": 2,
+          "maxLength": 64
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name shown in the theme store",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "description": {
+          "type": "string",
+          "description": "Short description of the theme",
+          "minLength": 10,
+          "maxLength": 200
+        },
+        "author": {
+          "type": "string",
+          "description": "Theme author's name or username",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "tags": {
+          "type": "array",
+          "description": "Searchable tags",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32,
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "maxItems": 10,
+          "uniqueItems": true
+        },
+        "palette": {
+          "type": "array",
+          "description": "Four representative colors for the theme preview",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "path": {
+          "type": "string",
+          "description": "Relative path to the theme file within the repo",
+          "pattern": "^themes/[a-z0-9-]+\\.json$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
