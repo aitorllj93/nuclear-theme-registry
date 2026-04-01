@@ -1,33 +1,16 @@
 import { readdir } from 'node:fs/promises';
-
-const THEMES_DIR = 'themes';
-const INDEX_FILE = 'themes.json';
-const INDEX_VERSION = 1;
-
-type ThemeIndexEntry = {
-  id: string;
-  name: string;
-  description: string;
-  author: string;
-  tags: string[];
-  palette: string[];
-  path: string;
-};
-
-type ThemeIndex = {
-  version: number;
-  themes: ThemeIndexEntry[];
-};
+import { THEMES_DIR, INDEX_FILE, INDEX_VERSION } from './config';
+import type { ThemeFile, ThemeIndexEntry, ThemeIndex } from './types';
 
 const REQUIRED_FIELDS = ['name', 'description', 'author', 'tags', 'palette'] as const;
 
 const parseThemeFile = async (file: string): Promise<ThemeIndexEntry> => {
   const filePath = `${THEMES_DIR}/${file}`;
-  const theme = await Bun.file(filePath).json();
+  const theme: ThemeFile = await Bun.file(filePath).json();
   const id = file.replace(/\.json$/, '');
 
   const missingFields = REQUIRED_FIELDS.filter((field) => theme[field] === undefined);
-  if (missingFields.length > 0) {
+  if (missingFields.length) {
     throw new Error(`${filePath}: missing required fields: ${missingFields.join(', ')}`);
   }
 
@@ -45,7 +28,7 @@ const parseThemeFile = async (file: string): Promise<ThemeIndexEntry> => {
 const checkForDuplicates = (entries: ThemeIndexEntry[]): void => {
   const ids = entries.map((entry) => entry.id);
   const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
-  if (duplicates.length > 0) {
+  if (duplicates.length) {
     throw new Error(`Duplicate theme ids: ${duplicates.join(', ')}`);
   }
 };
