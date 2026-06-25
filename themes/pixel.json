@@ -9,6 +9,12 @@
     "grayscale",
     "pixel-art"
   ],
+  "palette": [
+    "oklch(0.9112 0.0325 95.42)",
+    "oklch(0.3102 0.0113 84.59)",
+    "oklch(0.6303 0.0168 90.30)",
+    "oklch(0.4058 0.0186 90.39)"
+  ],
   "vars": {
     "background": "oklch(1 0 0)",
     "background-secondary": "oklch(0.97 0 0)",
